@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .container:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    }
+
+    h1, h2 {
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 36px;
+      color: #1a237e;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-size: 26px;
+      border-bottom: 3px solid #1a237e;
+      padding-bottom: 8px;
+      margin-top: 35px;
+      color: #1a237e;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 12px;
+      line-height: 1.5;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .header p {
+      margin: 6px 0;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .summary {
+      text-align: center;
+      font-size: 16px;
+      color: #444;
+      margin-bottom: 40px;
+      line-height: 1.5;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .project, .job {
+      margin-bottom: 25px;
+      padding: 20px;
+      border-left: 7px solid #1a237e;
+      background: linear-gradient(to right, #f0f4f8, #e8f0fe);
+      border-radius: 12px;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .project:hover, .job:hover {
+      transform: translateX(5px);
+      background: linear-gradient(to right, #e0ebff, #d0e4ff);
+    }
+
+    .soft-skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .soft-skills span {
+      background: #1a237e;
+      color: #fff;
+      padding: 6px 15px;
+      border-radius: 25px;
+      font-size: 14px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .soft-skills span:hover {
+      transform: scale(1.1);
+    }
+
+    a {
+      color: #1a237e;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 25px;
+      }
+      h1 {
+        font-size: 30px;
+      }
+      h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Your Full Name</h1>
+      <p>📍 City, UK | ✉️ email@example.com | ☎️ +44 1234 567890 | 🌐 <a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a></p>
+    </div>
+
+    <div class="summary">
+      <p>Enthusiastic Computer Science student with strong problem-solving skills and experience in web and mobile app development. Passionate about building interactive, user-friendly applications and continuously learning new technologies to deliver high-quality software solutions. Skilled in Java, JavaScript, HTML, CSS, and Node.js, with hands-on experience in developing projects from scratch and collaborating in team environments. Adept at debugging, optimizing code, and implementing efficient solutions. Eager to contribute to innovative software development projects while growing as a professional in the tech industry. Strong communicator and adaptable team player with attention to detail and a commitment to delivering results.</p>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p><strong>BSc Computer Science</strong> – Your University, City, UK<br>
+      <em>Expected Graduation: 202X</em></p>
+    </div>
+
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Java, JavaScript, HTML, CSS</li>
+        <li><strong>Frameworks/Tools:</strong> Node.js, Android Studio, Git/GitHub</li>
+        <li><strong>Other Skills:</strong> Debugging, Web Development, Mobile App Development</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <div class="project">
+        <strong>Bookshop Website</strong> – <em>HTML, CSS, JavaScript, Node.js</em>
+        <ul>
+          <li>Created a functional e-commerce platform for books with catalog browsing and shopping cart.</li>
+          <li>Implemented structured product listings for 59+ books with images and descriptions.</li>
+        </ul>
+      </div>
+      <div class="project">
+        <strong>GuessYoFlag (Mobile Game)</strong> – <em>Android Studio, Java</em>
+        <ul>
+          <li>Developed a quiz app featuring multiple-choice flag questions.</li>
+          <li>Designed a user-friendly game flow with plans for Play Store release.</li>
+        </ul>
+      </div>
+      <div class="project">
+        <strong>Asteroid Game (Java)</strong>
+        <ul>
+          <li>Built a game where asteroids spawn and move randomly using ArrayLists.</li>
+          <li>Implemented image-based obstacles and optimized memory usage with capped objects.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Work Experience</h2>
+      <div class="job">
+        <strong>Barista</strong> – Café/Shop Name, City <br>
+        <em>Dates</em>
+        <ul>
+          <li>Delivered excellent customer service in a fast-paced environment.</li>
+          <li>Managed closing procedures, teamwork, and attention to detail under pressure.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Soft Skills</h2>
+      <div class="soft-skills">
+        <span>Problem-Solving</span>
+        <span>Teamwork</span>
+        <span>Attention to Detail</span>
+        <span>Adaptability</span>
+        <span>Time Management</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
