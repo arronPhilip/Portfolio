@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fbf9f3" />
+    <meta
+      name="description"
+      content="CV of Arron Philip, Computer Science student at Manchester Metropolitan University."
+    />
+    <title>CV — Arron Philip</title>
+    <link rel="stylesheet" href="./cv.css" />
+  </head>
+  <body>
+    <div class="cv-actions">
+      <a href="./index.html">← Back to portfolio</a>
+      <button type="button" onclick="window.print()">Print / Save as PDF</button>
+    </div>
+
+    <main class="cv-page">
+      <header class="cv-header">
+        <div>
+          <p class="cv-kicker">CURRICULUM VITAE</p>
+          <h1>Arron Philip</h1>
+          <p class="cv-role">Computer Science Student · Aspiring Software Developer</p>
+        </div>
+        <address class="cv-contact">
+          <span>Manchester, UK</span>
+          <a href="mailto:arron5588@gmail.com">arron5588@gmail.com</a>
+          <a href="https://github.com/arronPhilip">github.com/arronPhilip</a>
+          <a href="https://www.linkedin.com/in/arron-phlilp/">LinkedIn profile</a>
+        </address>
+      </header>
+
+      <section class="cv-section" aria-labelledby="profile-title">
+        <h2 id="profile-title">Profile</h2>
+        <p>
+          Third-year BSc (Hons) Computer Science student at Manchester Metropolitan University,
+          expected to graduate in 2027. Interested in software development and building practical,
+          user-focused applications. Brings experience from part-time administrative and
+          warehouse-operations roles, alongside independent web and software projects. Outside of
+          study, I enjoy sports and fitness.
+        </p>
+      </section>
+
+      <section class="cv-section" aria-labelledby="experience-title">
+        <h2 id="experience-title">Experience</h2>
+        <article class="cv-entry">
+          <div class="entry-heading">
+            <div>
+              <h3>Administrative Assistant <span class="employment-type">· Part-time, remote</span></h3>
+              <p class="entry-employer">Marie De Louise Solicitors</p>
+            </div>
+            <p class="entry-date">October 2024 – Present</p>
+          </div>
+          <p class="entry-description">
+            Provide remote administrative assistance to support the day-to-day work of the solicitors’ office.
+          </p>
+        </article>
+
+        <article class="cv-entry">
+          <div class="entry-heading">
+            <div>
+              <h3>Warehouse Associate <span class="employment-type">· Part-time</span></h3>
+              <p class="entry-employer">Amazon DSP · Rochdale</p>
+            </div>
+            <p class="entry-date">October 2025 – Present</p>
+          </div>
+          <ul class="entry-list">
+            <li>Work across pick, stage, stow, induct, and receiving operations.</li>
+            <li>Adapt between warehouse tasks and use problem-solving to address operational issues.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="cv-section" aria-labelledby="projects-title">
+        <h2 id="projects-title">Selected Projects</h2>
+        <article class="cv-entry project-entry">
+          <div class="entry-heading">
+            <h3>Lead Map</h3>
+            <a class="entry-link" href="https://github.com/arronPhilip/lead-map">Source code ↗</a>
+          </div>
+          <p>
+            Built a place-search and route-planning web app using an OpenStreetMap-powered map,
+            with nearby-place discovery and directions.
+          </p>
+          <p class="entry-tech">JavaScript · Leaflet · OpenStreetMap</p>
+        </article>
+
+        <article class="cv-entry project-entry">
+          <div class="entry-heading">
+            <h3>GymTrack</h3>
+            <a class="entry-link" href="https://github.com/arronPhilip/gym-tracker">Source code ↗</a>
+          </div>
+          <p>
+            Developed a workout tracker for recording exercises, sets, reps, weights, and training progress.
+          </p>
+          <p class="entry-tech">React · Vite · Node.js · Express · MongoDB</p>
+        </article>
+
+        <article class="cv-entry project-entry">
+          <div class="entry-heading">
+            <h3>Maze Escape</h3>
+            <a class="entry-link" href="https://arronPhilip.github.io/Maze_Escape/">Play online ↗</a>
+          </div>
+          <p>
+            Created a browser maze game with randomly generated levels and an AI guard that follows
+            a shortest path found using breadth-first search.
+          </p>
+          <p class="entry-tech">JavaScript · HTML · CSS · Breadth-first search</p>
+        </article>
+      </section>
+
+      <section class="cv-section cv-columns">
+        <div>
+          <h2 id="education-title">Education</h2>
+          <article class="cv-entry">
+            <h3>BSc (Hons) Computer Science</h3>
+            <p class="entry-employer">Manchester Metropolitan University</p>
+            <p class="entry-date">Expected graduation: 2027</p>
+          </article>
+        </div>
+        <div>
+          <h2 id="skills-title">Technical Skills</h2>
+          <p><strong>Languages:</strong> JavaScript, Python, Java, C#, HTML, CSS</p>
+          <p><strong>Tools &amp; technologies:</strong> React, Vite, Node.js, Express, MongoDB, Leaflet, Git, GitHub</p>
+          <p><strong>Core strengths:</strong> Problem-solving, debugging, responsive web development</p>
+        </div>
+      </section>
+
+      <footer class="cv-footer">
+        <span>Arron Philip · Manchester, UK</span>
+        <a href="mailto:arron5588@gmail.com">arron5588@gmail.com</a>
+      </footer>
+    </main>
+  </body>
+</html>
