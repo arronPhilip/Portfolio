@@ -4,7 +4,7 @@ A responsive portfolio for Arron Philip, a third-year Computer Science student a
 
 **Live portfolio:** https://arronphilip.github.io/Portfolio/
 
-**CV:** [View Arron's CV](./cv.html) · Use **Print / Save as PDF** on the CV page to save a copy.
+**CV:** [View online](./cv.html) · [Download PDF](./Arron_Philip_CV.pdf) · [Download Word](./Arron_Philip_CV.docx)
 
 ## Projects
 

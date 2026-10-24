@@ -14,7 +14,11 @@
   <body>
     <div class="cv-actions">
       <a href="./index.html">← Back to portfolio</a>
-      <button type="button" onclick="window.print()">Print / Save as PDF</button>
+      <div class="cv-downloads">
+        <a class="download-link" href="./Arron_Philip_CV.pdf" download>Download PDF</a>
+        <a class="download-link" href="./Arron_Philip_CV.docx" download>Download Word</a>
+        <button type="button" onclick="window.print()">Print</button>
+      </div>
     </div>
 
     <main class="cv-page">
@@ -53,9 +57,10 @@
             </div>
             <p class="entry-date">October 2024 – Present</p>
           </div>
-          <p class="entry-description">
-            Provide remote administrative assistance to support the day-to-day work of the solicitors’ office.
-          </p>
+          <ul class="entry-list">
+            <li>Provide remote administrative support to the solicitors’ office.</li>
+            <li>Assist with preparing wills and powers of attorney, and review legal documents.</li>
+          </ul>
         </article>
 
         <article class="cv-entry">
@@ -75,6 +80,20 @@
 
       <section class="cv-section" aria-labelledby="projects-title">
         <h2 id="projects-title">Selected Projects</h2>
+        <article class="cv-entry project-entry">
+          <div class="entry-heading">
+            <h3>DocChat</h3>
+            <a class="entry-link" href="https://docchat-006c.onrender.com/">Live app ↗</a>
+          </div>
+          <p>
+            Built and deployed a full-stack AI document assistant: users upload PDFs or Word files and ask
+            questions, with streamed answers that cite their sources, automatic document overviews,
+            follow-up suggestions and one-click summaries. Added Google sign-in with server-side token
+            verification, per-user private chats stored in SQLite, and an SEO-ready landing page.
+          </p>
+          <p class="entry-tech">Python · Flask · Gemini API · SQLite · Google OAuth · JavaScript · Render</p>
+        </article>
+
         <article class="cv-entry project-entry">
           <div class="entry-heading">
             <h3>Lead Map</h3>
@@ -123,7 +142,8 @@
         <div>
           <h2 id="skills-title">Technical Skills</h2>
           <p><strong>Languages:</strong> JavaScript, Python, Java, C#, HTML, CSS</p>
-          <p><strong>Tools &amp; technologies:</strong> React, Vite, Node.js, Express, MongoDB, Leaflet, Git, GitHub</p>
+          <p><strong>Tools &amp; technologies:</strong> React, Vite, Node.js, Express, MongoDB, Flask, SQLite, Leaflet, Git, GitHub</p>
+          <p><strong>Also:</strong> AI/LLM APIs (Gemini), Google OAuth, REST APIs, deployment on Render</p>
           <p><strong>Core strengths:</strong> Problem-solving, debugging, responsive web development</p>
         </div>
       </section>
